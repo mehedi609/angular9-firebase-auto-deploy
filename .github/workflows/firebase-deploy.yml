@@ -46,7 +46,7 @@ jobs:
         uses: actions/download-artifact@v2
         with:
           name: build
-          path: build
+          path: dist/angular9-firebase-deploy
       #      - name: Deploy to Firebase production
       #        if: ${{ github.ref == 'refs/heads/master' }}
       #        uses: w9jds/firebase-action@master
