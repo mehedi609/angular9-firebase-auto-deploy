@@ -5,6 +5,9 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
+    "server:dev": "ng serve --host 0.0.0.0",
+    "server": "npm run server:dev",
+    "build:test": "ng build --prod",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
